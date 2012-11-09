@@ -69,3 +69,15 @@ PRODUCT_COPY_FILES += \
 # Audio
 
 # OMX
+
+# Wifi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_AU:system/etc/wifi/nvram_net.txt_AU \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_IL:system/etc/wifi/nvram_net.txt_IL \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_SG:system/etc/wifi/nvram_net.txt_SG \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_TN:system/etc/wifi/nvram_net.txt_TN
