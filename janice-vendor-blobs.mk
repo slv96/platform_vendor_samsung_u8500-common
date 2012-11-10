@@ -28,14 +28,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.samsung.so:system/lib/hw/gralloc.samsung.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
+    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    $(LOCAL_PATH)/proprietary/etc/cspsa.conf:system/etc/cspsa.conf \
+    $(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
+    $(LOCAL_PATH)/proprietary/system/bin/factoryreset:system/bin/factoryreset
+
 
 # RIL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/system/bin/netd:system/bin/netd \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlbrcmp2papp.so:system/lib/libwlbrcmp2papp.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwldhcp.so:system/lib/libwldhcp.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlp2p.so:system/lib/libwlp2p.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlwps.so:system/lib/libwlwps.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlwpscli.so:system/lib/libwlwpscli.so
 
 # Overlay
 PRODUCT_COPY_FILES += \
