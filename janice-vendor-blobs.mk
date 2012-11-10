@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcamera.so:obj/lib/libcamera.so
 
+# General
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/factoryreset:system/bin/factoryreset
+
 # EGL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libMali.so:system/lib/libMali.so \
@@ -29,23 +33,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    $(LOCAL_PATH)/proprietary/etc/cspsa.conf:system/etc/cspsa.conf \
-    $(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
-    $(LOCAL_PATH)/proprietary/system/bin/factoryreset:system/bin/factoryreset
-
 
 # RIL
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    $(LOCAL_PATH)/proprietary/system/bin/netd:system/bin/netd \
-    $(LOCAL_PATH)/proprietary/system/lib/libwlbrcmp2papp.so:system/lib/libwlbrcmp2papp.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libwldhcp.so:system/lib/libwldhcp.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libwlp2p.so:system/lib/libwlp2p.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libwlwps.so:system/lib/libwlwps.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libwlwpscli.so:system/lib/libwlwpscli.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 # Overlay
 PRODUCT_COPY_FILES += \
@@ -82,6 +77,12 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/netd:system/bin/netd \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlbrcmp2papp.so:system/lib/libwlbrcmp2papp.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwldhcp.so:system/lib/libwldhcp.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlp2p.so:system/lib/libwlp2p.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlwps.so:system/lib/libwlwps.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
