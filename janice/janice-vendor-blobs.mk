@@ -77,6 +77,30 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmplmpu.so:system/lib/libmplmpu.so
 
 # Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/admsrv:/system/bin/admsrv \
+    $(LOCAL_PATH)/proprietary/system/bin/at_core:/system/bin/at_core \
+    $(LOCAL_PATH)/proprietary/system/bin/at_distributor:/system/bin/at_distributor \
+    $(LOCAL_PATH)/proprietary/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcn.so:system/lib/libcn.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstecom.so:system/lib/libstecom.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libpscc.so:system/lib/libpscc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsterc.so:system/lib/libsterc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsms_server.so:system/lib/libsms_server.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmalrf.so:system/lib/libmalrf.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libphonet.so:system/lib/libphonet.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libisimessage.so:system/lib/libisimessage.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_adm_server.so:system/lib/libste_adm_server.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liblos.so:system/lib/liblos.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libproduct.so:system/lib/libproduct.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so
 
 # OMX
 
