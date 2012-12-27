@@ -112,12 +112,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libwlp2p.so:system/lib/libwlp2p.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwlwps.so:system/lib/libwlwps.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_AU:system/etc/wifi/nvram_net.txt_AU \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_IL:system/etc/wifi/nvram_net.txt_IL \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_SG:system/etc/wifi/nvram_net.txt_SG \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_TN:system/etc/wifi/nvram_net.txt_TN
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/vendor/firmware/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_AU:system/vendor/firmware/nvram_net.txt_AU \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_IL:system/vendor/firmware/nvram_net.txt_IL \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_SG:system/vendor/firmware/nvram_net.txt_SG \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_TN:system/vendor/firmware/nvram_net.txt_TN
