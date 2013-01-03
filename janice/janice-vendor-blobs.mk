@@ -23,7 +23,19 @@ PRODUCT_COPY_FILES := \
 
 # General
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/factoryreset:system/bin/factoryreset
+    $(LOCAL_PATH)/proprietary/system/bin/factoryreset:system/bin/factoryreset \
+    $(LOCAL_PATH)/proprietary/system/etc/ste_init.sh:system/etc/ste_init.sh \
+    $(LOCAL_PATH)/proprietary/system/etc/ste_modem.sh:system/etc/ste_modem.sh \
+    $(LOCAL_PATH)/proprietary/system/bin/copsdaemon:system/bin/copsdaemon \
+    $(LOCAL_PATH)/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
+    $(LOCAL_PATH)/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
+#   $(LOCAL_PATH)/proprietary/system/bin/mreset:system/bin/mreset \
+    $(LOCAL_PATH)/proprietary/system/bin/ta_loader:system/bin/ta_loader \
+    $(LOCAL_PATH)/proprietary/system/bin/mtvmfservice:system/bin/mtvmfservice \
+    $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
+    $(LOCAL_PATH)/proprietary/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
+    $(LOCAL_PATH)/proprietary/system/bin/orientationd6x:system/bin/orientationd6x
+
 
 # EGL
 PRODUCT_COPY_FILES += \
