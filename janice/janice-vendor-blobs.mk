@@ -23,7 +23,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/janice/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/janice/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
+    vendor/samsung/janice/proprietary/system/bin/at_core:system/bin/at_core \
+    vendor/samsung/janice/proprietary/system/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/janice/proprietary/system/bin/orientationd6x:system/bin/orientationd6x \
+    vendor/samsung/janice/proprietary/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
+    vendor/samsung/janice/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
+    vendor/samsung/janice/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
+    vendor/samsung/janice/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
+    vendor/samsung/janice/proprietary/system/bin/stedump:system/bin/stedump \
+    vendor/samsung/janice/proprietary/system/bin/ta_loader:system/bin/ta_loader \
     vendor/samsung/janice/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
+    vendor/samsung/janice/proprietary/system/xbin/battery_params:system/xbin/battery_params \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
