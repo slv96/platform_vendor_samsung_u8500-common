@@ -23,9 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/janice/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/janice/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
-    vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
-    vendor/samsung/janice/proprietary/system/bin/at_core:system/bin/at_core \
-    vendor/samsung/janice/proprietary/system/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/janice/proprietary/system/bin/orientationd6x:system/bin/orientationd6x \
     vendor/samsung/janice/proprietary/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
     vendor/samsung/janice/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
@@ -41,3 +38,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/janice/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/janice/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+
+# admsrv libs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
+    vendor/samsung/janice/proprietary/system/bin/at_core:system/bin/at_core \
+    vendor/samsung/janice/proprietary/system/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/janice/proprietary/system/etc/adm.sqlite-u8500:system/bin/etc/adm.sqlite-u8500 \
+    vendor/samsung/janice/proprietary/system/lib/libste_adm.so:system/bin/lib/libste_adm.so \
+    vendor/samsung/janice/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/bin/lib/libste_ens_audio_samplerateconv.so \
+    vendor/samsung/janice/proprietary/system/lib/libste_audio_hwctrl.so:system/bin/lib/libste_audio_hwctrl.so \
+    vendor/samsung/janice/proprietary/system/lib/libste_audio_mixer.so:system/bin/lib/libste_audio_mixer.so \
+    vendor/samsung/janice/proprietary/system/lib/libomxil-bellagio.so:system/bin/lib/libomxil-bellagio.so \
+    vendor/samsung/janice/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/bin/lib/libspeech_proc_customer_plugin.so \
+    vendor/samsung/janice/proprietary/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/bin/lib/ste_omxcomponents/libste_audio_mixer.so \
+    vendor/samsung/janice/proprietary/system/lib/libtrace.so:system/bin/lib/libste_adm.so \
+    vendor/samsung/janice/proprietary/system/lib/libste_ensloader.so:system/bin/lib/libste_ensloader.so \
+    vendor/samsung/janice/proprietary/system/lib/libnmfee.so:system/bin/lib/libnmfee.so \
+    vendor/samsung/janice/proprietary/system/lib/libnmf.so:system/bin/lib/libnmf.so \
+    vendor/samsung/janice/proprietary/system/lib/liblos.so:system/bin/lib/liblos.so \
+    vendor/samsung/janice/proprietary/system/lib/libbassapp.so:system/bin/lib/libbassapp.so \
+    vendor/samsung/janice/proprietary/system/lib/libtee.so:system/bin/lib/libtee.so \
+    vendor/samsung/janice/proprietary/system/lib/libcspsa.so:system/bin/lib/libcspsa.so \
+    vendor/samsung/janice/proprietary/system/lib/libste_ens_audio_common.so:system/bin/lib/libste_ens_audio_common.so \
+    vendor/samsung/janice/proprietary/system/lib/libmmprobe.so:system/bin/lib/libmmprobe.so \
+    vendor/samsung/janice/proprietary/system/lib/libomxil-bellagio.so:system/bin/lib/libomxil-bellagio.so \
+    vendor/samsung/janice/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/bin/lib/libspeech_proc_customer_plugin.so
+
