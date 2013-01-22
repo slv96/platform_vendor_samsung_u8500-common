@@ -37,7 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/janice/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/janice/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/janice/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+    vendor/samsung/janice/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/janice/proprietary/system/bin/usbid_init.sh:system/bin/usbid_init.sh
 
 # admsrv libs
 PRODUCT_COPY_FILES += \
