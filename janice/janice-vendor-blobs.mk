@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/lib/libste_adm.so:system/bin/lib/libste_adm.so \
     vendor/samsung/janice/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/bin/lib/libste_ens_audio_samplerateconv.so \
     vendor/samsung/janice/proprietary/system/lib/libste_audio_hwctrl.so:system/bin/lib/libste_audio_hwctrl.so \
-    vendor/samsung/janice/proprietary/system/lib/libste_audio_mixer.so:system/bin/lib/libste_audio_mixer.so \
+    vendor/samsung/janice/proprietary/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/bin/lib/ste_omxcomponents/libste_audio_mixer.so \
     vendor/samsung/janice/proprietary/system/lib/libomxil-bellagio.so:system/bin/lib/libomxil-bellagio.so \
     vendor/samsung/janice/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/bin/lib/libspeech_proc_customer_plugin.so \
     vendor/samsung/janice/proprietary/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/bin/lib/ste_omxcomponents/libste_audio_mixer.so \
