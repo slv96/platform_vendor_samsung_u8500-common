@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/janice/proprietary/system/etc/adm.sqlite-u8500:system/etc/adm.sqlite-u8500 \
     vendor/samsung/janice/proprietary/system/lib/libste_adm.so:system/lib/libste_adm.so \
+    vendor/samsung/janice/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     vendor/samsung/janice/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     vendor/samsung/janice/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
     vendor/samsung/janice/proprietary/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
