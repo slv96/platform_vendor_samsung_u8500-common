@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     vendor/samsung/janice/proprietary/system/bin/orientationd6x:system/bin/orientationd6x \
     vendor/samsung/janice/proprietary/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
-    vendor/samsung/janice/proprietary/system/bin/copsdaemon:system/bin/cspsa-server \
+    vendor/samsung/janice/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
+    vendor/samsung/janice/proprietary/system/bin/copsdaemon:system/bin/copsdaemon \
     vendor/samsung/janice/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/samsung/janice/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
     vendor/samsung/janice/proprietary/system/bin/stedump:system/bin/stedump \
