@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/lib/liblos.so:system/lib/liblos.so \
     vendor/samsung/janice/proprietary/system/lib/libbassapp.so:system/lib/libbassapp.so \
     vendor/samsung/janice/proprietary/system/lib/libtee.so:system/lib/libtee.so \
+    vendor/samsung/janice/proprietary/system/lib/libtrace.so:system/lib/libtrace.so \
     vendor/samsung/janice/proprietary/system/lib/libcspsa.so:system/lib/libcspsa.so \
     vendor/samsung/janice/proprietary/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     vendor/samsung/janice/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
