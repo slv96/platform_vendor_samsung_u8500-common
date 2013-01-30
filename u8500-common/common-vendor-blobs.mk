@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 # audio libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/u8500-common/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+    vendor/samsung/u8500-common/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/u8500-common/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/u8500-common/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so
 
@@ -115,9 +116,9 @@ PRODUCT_COPY_FILES += \
 
 # camera
 PRODUCT_COPY_FILES += \
+    vendor/samsung/u8500-common/proprietary/system/lib/libblt_hw.so:system/lib/libblt_hw.so \
     vendor/samsung/u8500-common/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/u8500-common/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
-
 
 # egl
 PRODUCT_COPY_FILES += \
