@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/bin/usbid_init.sh:system/bin/usbid_init.sh
 
+# libs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/janice/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
+
 # admsrv libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/janice/proprietary/system/bin/admsrv:system/bin/admsrv \
