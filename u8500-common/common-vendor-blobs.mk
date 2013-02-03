@@ -130,6 +130,6 @@ PRODUCT_COPY_FILES += \
 
 # omx
 PRODUCT_COPY_FILES += \
-    vendor/samsung/u8500-common/proprietary/system/omxloader:system/oxmloader
+    vendor/samsung/u8500-common/proprietary/system/omxloaders:system/oxmloaders
 
 
