@@ -127,9 +127,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/u8500-common/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/u8500-common/proprietary/system/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/u8500-common/proprietary/system/lib/libUMP.so:system/lib/libUMP.so
-
-# omx
-PRODUCT_COPY_FILES += \
-    vendor/samsung/u8500-common/proprietary/system/omxloaders:system/oxmloaders
-
-
