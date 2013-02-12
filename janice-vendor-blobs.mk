@@ -262,6 +262,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/system/lib/libstlport.so:system/lib/libstlport.so \
     $(LOCAL_PATH)/proprietary/system/bin/copsdaemon:system/bin/copsdaemon \
+    $(LOCAL_PATH)/proprietary/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    $(LOCAL_PATH)/proprietary/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    $(LOCAL_PATH)/proprietary/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    $(LOCAL_PATH)/proprietary/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     $(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
     $(LOCAL_PATH)/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
