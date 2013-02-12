@@ -75,6 +75,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
+    $(LOCAL_PATH)/proprietary/system/bin/orientationd6x:system/bin/orientationd6x \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmllite.so:system/lib/libmllite.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
@@ -156,3 +158,37 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/ste_omxcomponents/libste_tonegen.so:system/lib/ste_omxcomponents/libste_tonegen.so \
     $(LOCAL_PATH)/proprietary/system/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/ste_omxcomponents/libste_val_src_sink.so \
     $(LOCAL_PATH)/proprietary/system/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/ste_omxcomponents/libste_virtual_surround.so
+
+# STE Services
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/admsrv:system/bin/admsrv \
+    $(LOCAL_PATH)/proprietary/system/bin/at_core:system/bin/at_core \
+    $(LOCAL_PATH)/proprietary/system/lib/libcn.so:system/lib/libcn.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcops.so:system/lib/libcops.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libisimessage.so:system/lib/libisimessage.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmalrf.so:system/lib/libmalrf.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libphonet.so:system/lib/libphonet.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsms_server.so:system/lib/libsms_server.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstecom.so:system/lib/libstecom.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsterc.so:system/lib/libsterc.so \
+    $(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
+    $(LOCAL_PATH)/proprietary/system/lib/libatparser.so:system/lib/libatparser.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libexpat.so:system/lib/libexpat.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libpower.so:system/lib/libpower.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstlport.so:system/lib/libstlport.so \
+    $(LOCAL_PATH)/proprietary/system/bin/copsdaemon:system/bin/copsdaemon \
+    $(LOCAL_PATH)/proprietary/system/bin/cspsa-server:system/bin/cspsa-server \
+    $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
+    $(LOCAL_PATH)/proprietary/system/bin/modem_log_relay:system/bin/modem_log_relay \
+    $(LOCAL_PATH)/proprietary/system/lib/libmalmon.so:system/lib/libmalmon.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmalutil.so:system/lib/libmalutil.so \
+    $(LOCAL_PATH)/proprietary/system/bin/modem-supervisor:system/bin/modem-supervisor \
+    $(LOCAL_PATH)/proprietary/system/bin/msa:system/bin/msa \
+    $(LOCAL_PATH)/proprietary/system/bin/npsmobex:system/bin/npsmobex \
+    $(LOCAL_PATH)/proprietary/system/bin/stedump:system/bin/stedump \
+    $(LOCAL_PATH)/proprietary/system/bin/ta_loader:system/bin/ta_loader \
+    $(LOCAL_PATH)/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    $(LOCAL_PATH)/proprietary/system/xbin/battery_params:system/xbin/battery_params
