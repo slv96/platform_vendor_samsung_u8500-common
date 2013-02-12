@@ -88,7 +88,32 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbassapp.so:system/lib/libbassapp.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcspsa.so:system/lib/libcspsa.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liblos.so:system/lib/liblos.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsamsungSoundBooster.so:system/lib/libsamsungSoundBooster.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_adm.so:system/lib/libste_adm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtee.so:system/lib/libtee.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so
+
 
 # OMX
 PRODUCT_COPY_FILES += \
