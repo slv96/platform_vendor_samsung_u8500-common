@@ -257,6 +257,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libisimessage.so:system/lib/libisimessage.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmalrf.so:system/lib/libmalrf.so \
     $(LOCAL_PATH)/proprietary/system/lib/libphonet.so:system/lib/libphonet.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libpscc.so:system/lib/libpscc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsms_server.so:system/lib/libsms_server.so \
     $(LOCAL_PATH)/proprietary/system/lib/libstecom.so:system/lib/libstecom.so \
