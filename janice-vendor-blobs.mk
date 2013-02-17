@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so
 
+# FM Radio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/btld:system/bin/btld
+
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd
