@@ -59,8 +59,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/libblt_hw.so:system/lib/libblt_hw.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/libFFTEm.so:system/lib/libFFTEm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libblt_hw.so:system/lib/libblt_hw.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
     $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
