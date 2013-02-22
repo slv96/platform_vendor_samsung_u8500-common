@@ -111,7 +111,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libnmtimer.so:system/lib/libnmftimer.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmftimer.so:system/lib/libnmftimer.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     $(LOCAL_PATH)/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
