@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnmfee.so:system/lib/libnmfee.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnmtimer.so:system/lib/libnmftimer.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     $(LOCAL_PATH)/proprietary/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
@@ -119,7 +120,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
     $(LOCAL_PATH)/proprietary/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     $(LOCAL_PATH)/proprietary/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
     $(LOCAL_PATH)/proprietary/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so
