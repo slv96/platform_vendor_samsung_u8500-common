@@ -105,8 +105,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcspsa.so:system/lib/libcspsa.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
     $(LOCAL_PATH)/proprietary/system/lib/liblos.so:system/lib/liblos.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmmprobe.so:system/lib/libmmprobe.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnmf.so:system/lib/libnmf.so \
