@@ -24,7 +24,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/etc/calib.dat:system/etc/calib.dat \
+    $(LOCAL_PATH)/proprietary/etc/param.dat:system/etc/param.dat
 
 # EGL
 PRODUCT_COPY_FILES += \
@@ -37,7 +39,8 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    $(LOCAL_PATH)/proprietary/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
 # FM Radio
 #PRODUCT_COPY_FILES += \
@@ -62,7 +65,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libblt_hw.so:system/lib/libblt_hw.so \
     $(LOCAL_PATH)/proprietary/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
     $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \	
+    $(LOCAL_PATH)/proprietary/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/dongbu_db8131m.dat:system/usr/share/camera/config_file/dongbu_db8131m.dat \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
@@ -110,7 +113,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmllite.so:system/lib/libmllite.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmpl.so:system/lib/libmpl.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libmplmpu.so:system/lib/libmplmpu.so
+    $(LOCAL_PATH)/proprietary/system/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    $(LOCAL_PATH)/proprietary/etc/sensors.dat:system/etc/sensors.dat
 
 # HWComposer
 PRODUCT_COPY_FILES += \
@@ -147,7 +151,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtee.so:system/lib/libtee.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so
+    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so \
+    $(LOCAL_PATH)/proprietary/etc/Volume.db:system/etc/Volume.db
 
 # Alsa
 PRODUCT_COPY_FILES += \
