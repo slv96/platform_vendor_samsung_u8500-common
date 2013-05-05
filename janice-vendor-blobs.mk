@@ -24,9 +24,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    $(LOCAL_PATH)/proprietary/etc/calib.dat:system/etc/calib.dat \
-    $(LOCAL_PATH)/proprietary/etc/param.dat:system/etc/param.dat
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 # EGL
 PRODUCT_COPY_FILES += \
@@ -114,7 +112,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmpl.so:system/lib/libmpl.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    $(LOCAL_PATH)/proprietary/etc/sensors.dat:system/etc/sensors.dat
+    $(LOCAL_PATH)/proprietary/system/etc/calib.dat:system/etc/calib.dat \
+    $(LOCAL_PATH)/proprietary/system/etc/param.dat:system/etc/param.dat \
+    $(LOCAL_PATH)/proprietary/system/etc/sensors.dat:system/etc/sensors.dat
 
 # HWComposer
 PRODUCT_COPY_FILES += \
