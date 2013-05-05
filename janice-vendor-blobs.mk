@@ -151,8 +151,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/proprietary/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtee.so:system/lib/libtee.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so \
-    $(LOCAL_PATH)/proprietary/etc/Volume.db:system/etc/Volume.db
+    $(LOCAL_PATH)/proprietary/system/lib/libtrace.so:system/lib/libtrace.so
 
 # Alsa
 PRODUCT_COPY_FILES += \
