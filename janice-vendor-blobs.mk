@@ -86,7 +86,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/sony_isx012.dat:system/usr/share/camera/config_file/sony_isx012.dat \
     $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/sony_isx012_hendrix.dat:system/usr/share/camera/config_file/sony_isx012_hendrix.dat \
-    $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/sony_isx012_skomer.dat:system/usr/share/camera/config_file/sony_isx012_skomer.dat
+    $(LOCAL_PATH)/proprietary/system/usr/share/camera/config_file/sony_isx012_skomer.dat:system/usr/share/camera/config_file/sony_isx012_skomer.dat \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so
 
 # DRM
 PRODUCT_COPY_FILES += \
