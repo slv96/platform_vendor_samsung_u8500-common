@@ -340,6 +340,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
     $(LOCAL_PATH)/proprietary/system/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun
 
+# OMX
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
