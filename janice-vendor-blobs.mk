@@ -99,7 +99,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so
 
 # DRM
 PRODUCT_COPY_FILES += \
