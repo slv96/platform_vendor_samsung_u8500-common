@@ -14,6 +14,11 @@
 
 LOCAL_PATH := $(LOCAL_PATH)
 
+PRODUCT_PACKAGES += \
+    libGLESv1_CM_mali \
+    libMali \
+    libUMP
+
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:obj/lib/libril.so \
