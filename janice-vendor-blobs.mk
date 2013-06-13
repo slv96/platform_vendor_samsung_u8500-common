@@ -45,13 +45,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     $(LOCAL_PATH)/proprietary/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
-# FM Radio
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/proprietary/system/bin/btld:system/bin/btld
+# BTLD is NOT for FM, IS for bluetooth :)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/btld:system/bin/btld
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd
+    $(LOCAL_PATH)/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
+    $(LOCAL_PATH)/proprietary/system/bin/hciattach:system/bin/hciattach\
+    $(LOCAL_PATH)/proprietary/system/bin/spdtool:system/bin/spdtool
 
 # WiFi
 PRODUCT_COPY_FILES += \
@@ -61,7 +63,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
-
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
@@ -146,7 +147,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/system/lib/libasound.so:system/lib/libasound.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     $(LOCAL_PATH)/proprietary/system/lib/libbassapp.so:system/lib/libbassapp.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcspsa.so:system/lib/libcspsa.so \
