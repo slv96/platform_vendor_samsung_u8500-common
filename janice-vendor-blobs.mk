@@ -40,6 +40,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so
 
+# EXTRAS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/hdmid:system/system/bin/hdmid \
+    $(LOCAL_PATH)/proprietary/system/bin/hdmi_service_st:system/system/bin/hdmi_service_st
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
@@ -53,7 +58,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     $(LOCAL_PATH)/proprietary/system/bin/hciattach:system/bin/hciattach\
-    $(LOCAL_PATH)/proprietary/system/bin/spdtool:system/bin/spdtool
+    $(LOCAL_PATH)/proprietary/system/bin/sdptool:system/bin/sdptool \
+    $(LOCAL_PATH)/proprietary/system/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus
 
 # WiFi
 PRODUCT_COPY_FILES += \
