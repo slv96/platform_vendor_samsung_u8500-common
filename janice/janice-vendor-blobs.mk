@@ -57,9 +57,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
-    $(LOCAL_PATH)/system/bin/hciattach:system/bin/hciattach\
-    $(LOCAL_PATH)/system/bin/sdptool:system/bin/sdptool \
-    $(LOCAL_PATH)/system/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus
+    $(LOCAL_PATH)/system/bin/sdptool:system/bin/sdptool
 
 # WiFi
 PRODUCT_COPY_FILES += \
