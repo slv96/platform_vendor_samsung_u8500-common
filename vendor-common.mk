@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS += vendor/samsung/janice/overlay
-
+ifeq ($(PRODUCT_DEVICE),janice)
 $(call inherit-product, vendor/samsung/janice/janice-vendor-blobs.mk)
+endif

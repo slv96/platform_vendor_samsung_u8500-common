@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libMali
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libMali.so
+LOCAL_SRC_FILES := lib/libMali.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -28,7 +28,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libUMP
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libUMP.so
+LOCAL_SRC_FILES := lib/libUMP.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -38,7 +38,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLESv1_CM_mali
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/egl/libGLESv1_CM_mali.so
+LOCAL_SRC_FILES := lib/egl/libGLESv1_CM_mali.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
