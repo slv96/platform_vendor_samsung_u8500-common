@@ -13,5 +13,8 @@
 # limitations under the License.
 
 ifeq ($(PRODUCT_DEVICE),janice)
-$(call inherit-product, vendor/samsung/janice/janice-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/u8500-common/janice/janice-vendor-blobs.mk)
+endif
+ifeq ($(PRODUCT_DEVICE),janicep)
+$(call inherit-product, vendor/samsung/u8500-common/janicep/janicep-vendor-blobs.mk)
 endif
