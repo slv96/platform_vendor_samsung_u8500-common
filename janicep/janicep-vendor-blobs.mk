@@ -353,11 +353,11 @@ PRODUCT_COPY_FILES += \
 # NFC
 ifeq ($(PRODUCT_DEVICE),janicep)
 PRODUCT_COPY_FILES += \
-    vendor/u8500-common/janicep/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    vendor/u8500-common/janicep/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    vendor/u8500-common/janicep/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    vendor/u8500-common/janicep/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
-else
+    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
+endif
 
 PRODUCT_COPY_FILES += \
     vendor/u8500-common/janice/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
