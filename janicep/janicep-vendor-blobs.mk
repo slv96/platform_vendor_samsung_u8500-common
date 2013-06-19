@@ -358,6 +358,7 @@ PRODUCT_COPY_FILES += \
     vendor/u8500-common/janicep/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
     vendor/u8500-common/janicep/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
 else
+
 PRODUCT_COPY_FILES += \
     vendor/u8500-common/janice/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
     vendor/u8500-common/janice/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
