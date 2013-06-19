@@ -351,11 +351,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/libste_virtual_surround.so
 
 # NFC
+ifeq ($(PRODUCT_DEVICE),janicep)
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
+    vendor/u8500-common/janicep/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    vendor/u8500-common/janicep/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    vendor/u8500-common/janicep/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    vendor/u8500-common/janicep/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
+else
+PRODUCT_COPY_FILES += \
+    vendor/u8500-common/janice/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    vendor/u8500-common/janice/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    vendor/u8500-common/janice/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    vendor/u8500-common/janice/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
+endif
 
 # STE Services
 PRODUCT_COPY_FILES += \

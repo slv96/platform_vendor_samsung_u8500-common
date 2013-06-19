@@ -31,6 +31,21 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
+# NFC
+ifeq ($(PRODUCT_DEVICE),janicep)
+PRODUCT_COPY_FILES += \
+    vendor/u8500-common/janicep/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    vendor/u8500-common/janicep/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    vendor/u8500-common/janicep/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    vendor/u8500-common/janicep/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
+else
+PRODUCT_COPY_FILES += \
+    vendor/u8500-common/janice/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    vendor/u8500-common/janice/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    vendor/u8500-common/janice/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    vendor/u8500-common/janice/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
+endif
+
 # EGL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libMali.so:system/lib/libMali.so \
@@ -371,10 +386,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/system/lib/libstlport.so:system/lib/libstlport.so \
     $(LOCAL_PATH)/system/bin/copsdaemon:system/bin/copsdaemon \
-    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     $(LOCAL_PATH)/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/system/bin/immvibed:system/bin/immvibed \
     $(LOCAL_PATH)/system/bin/modem_log_relay:system/bin/modem_log_relay \
