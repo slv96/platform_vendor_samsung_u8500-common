@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(LOCAL_PATH)
 
+
+LOCAL_PATH := $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     libGLESv1_CM_mali \
     libMali \
@@ -349,6 +350,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/libste_val_src_sink.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/libste_virtual_surround.so
 
+# NFC
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
+
 # STE Services
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/admsrv:system/bin/admsrv \
@@ -371,10 +379,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/system/lib/libstlport.so:system/lib/libstlport.so \
     $(LOCAL_PATH)/system/bin/copsdaemon:system/bin/copsdaemon \
-    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     $(LOCAL_PATH)/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/system/bin/immvibed:system/bin/immvibed \
     $(LOCAL_PATH)/system/bin/modem_log_relay:system/bin/modem_log_relay \
@@ -690,3 +694,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf
+
