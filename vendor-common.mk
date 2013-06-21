@@ -18,3 +18,7 @@ endif
 ifeq ($(PRODUCT_DEVICE),janicep)
 $(call inherit-product, vendor/samsung/u8500-common/janicep/janicep-vendor-blobs.mk)
 endif
+
+# Goo IM Auto Updater
+#$(call inherit-product, vendor/samsung/u8500-common/version.mk)
+# Currently commented till we fix a particular account!
