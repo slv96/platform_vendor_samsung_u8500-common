@@ -31,15 +31,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
-# NFC
-ifneq ($(PRODUCT_DEVICE),janicep)
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
-endif
-
 # EGL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libMali.so:system/lib/libMali.so \
