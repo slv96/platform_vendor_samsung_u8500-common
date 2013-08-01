@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_adm.so:system/lib/libste_adm.so \
     $(LOCAL_PATH)/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
     $(LOCAL_PATH)/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     $(LOCAL_PATH)/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     $(LOCAL_PATH)/system/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
@@ -181,12 +180,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
     $(LOCAL_PATH)/system/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
     $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_mp3decode.so:system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so
-
+    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so 
 
 # Alsa
 PRODUCT_COPY_FILES += \
@@ -274,13 +268,6 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libspeech_processing.so:system/lib/ste_omxcomponents/libspeech_processing.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxarmivproc.so:system/lib/ste_omxcomponents/libst_omxarmivproc.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxface_detector.so:system/lib/ste_omxcomponents/libst_omxface_detector.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxnorcos.so:system/lib/ste_omxcomponents/libst_omxnorcos.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_source_sink.so:system/lib/ste_omxcomponents/libste_audio_source_sink.so \
@@ -322,32 +309,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_source_sink.so:system/lib/ste_omxcomponents/libste_audio_source_sink.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_comfort_noise.so:system/lib/ste_omxcomponents/libste_comfort_noise.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_cscall.so:system/lib/ste_omxcomponents/libste_cscall.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/libste_dec_amr.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/libste_dec_amrwb.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_h264.so:system/lib/libste_dec_h264.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_jpeg.so:system/lib/libste_dec_jpeg.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_mpeg2.so:system/lib/libste_dec_mpeg2.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_mpeg4.so:system/lib/libste_dec_mpeg4.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_dec_vc1.so:system/lib/libste_dec_vc1.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_drc.so:system/lib/libste_drc.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_aac.so:system/lib/libste_enc_aac.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/libste_enc_amr.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/libste_enc_amrwb.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_h264.so:system/lib/libste_enc_h264.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_jpeg.so:system/lib/libste_enc_jpeg.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_mpeg4.so:system/lib/libste_enc_mpeg4.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/libste_exif_mixer.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_ext_camera.so:system/lib/libste_ext_camera.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_mdrc.so:system/liblibste_mdrc.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_noise_reduction.so:system/lib/libste_noise_reduction.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_pcm_splitter.so:system/lib/libste_pcm_splitter.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_speech_proc.so:system/lib/libste_speech_proc.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_spl.so:system/lib/libste_spl.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_teq.so:system/lib/libste_teq.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_tonegen.so:system/lib/libste_tonegen.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_val_src_sink.so:system/lib/libste_val_src_sink.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_virtual_surround.so:system/lib/libste_virtual_surround.so
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_cscall.so:system/lib/ste_omxcomponents/libste_cscall.so 
 
 # STE Services
 PRODUCT_COPY_FILES += \
