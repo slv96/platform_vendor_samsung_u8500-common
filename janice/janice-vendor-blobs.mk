@@ -397,7 +397,8 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so
+    $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so \
+    $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
