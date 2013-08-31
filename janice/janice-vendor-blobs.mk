@@ -18,6 +18,11 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_mali \
     libMali \
     libUMP
+	
+    PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/bin/factoryreset:system/bin/factoryreset \
+    $(LOCAL_PATH)/system/bin/lpmkey:system/bin/lpmkey \
+    $(LOCAL_PATH)/system/bin/playlpm:system/bin/playlpm
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
