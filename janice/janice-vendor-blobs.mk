@@ -19,10 +19,12 @@ PRODUCT_PACKAGES += \
     libMali \
     libUMP
 	
-    PRODUCT_COPY_FILES += \
+# Prebuilts needed by stock LPM charging mode	
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/factoryreset:system/bin/factoryreset \
     $(LOCAL_PATH)/system/bin/lpmkey:system/bin/lpmkey \
-    $(LOCAL_PATH)/system/bin/playlpm:system/bin/playlpm
+    $(LOCAL_PATH)/system/bin/playlpm:system/bin/playlpm \
+    $(LOCAL_PATH)/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
