@@ -17,7 +17,7 @@
 LOCAL_PATH := $(LOCAL_PATH)
 
 # Camera
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(LOCAL_PATH)/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
@@ -45,7 +45,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     $(LOCAL_PATH)/system/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
     $(LOCAL_PATH)/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    $(LOCAL_PATH)/system/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so
+    $(LOCAL_PATH)/system/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
+    $(LOCAL_PATH)/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
+    $(LOCAL_PATH)/system/lib/libste_adm.so:system/lib/libste_adm.so \
+    $(LOCAL_PATH)/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
+    $(LOCAL_PATH)/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
+    $(LOCAL_PATH)/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
+    $(LOCAL_PATH)/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
+    $(LOCAL_PATH)/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
+
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -152,20 +160,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(LOCAL_PATH)/system/lib/libsms_server.so:system/lib/libsms_server.so \
-    $(LOCAL_PATH)/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
     $(LOCAL_PATH)/system/lib/libstecom.so:system/lib/libstecom.so \
     $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/system/lib/libsterc.so:system/lib/libsterc.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so \
     $(LOCAL_PATH)/system/lib/libstlport.so:system/lib/libstlport.so \
-    $(LOCAL_PATH)/system/lib/libste_adm.so:system/lib/libste_adm.so \
     $(LOCAL_PATH)/system/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so \
-    $(LOCAL_PATH)/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
-    $(LOCAL_PATH)/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
-    $(LOCAL_PATH)/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
-    $(LOCAL_PATH)/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
-    $(LOCAL_PATH)/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so 
+    $(LOCAL_PATH)/system/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
+    $(LOCAL_PATH)/system/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
+    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
+    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so
 
 # OMX
 PRODUCT_COPY_FILES += \
@@ -177,6 +182,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libspeech_processing.so:system/lib/ste_omxcomponents/libspeech_processing.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so:system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
