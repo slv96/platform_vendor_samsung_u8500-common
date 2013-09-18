@@ -16,8 +16,13 @@
 
 LOCAL_PATH := $(LOCAL_PATH)
 
-# Camera
+# Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \
+    $(LOCAL_PATH)/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
+
+# Camera
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(LOCAL_PATH)/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
