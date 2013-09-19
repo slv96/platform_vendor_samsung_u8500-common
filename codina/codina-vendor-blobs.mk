@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES := \
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    $(LOCAL_PATH)/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    $(LOCAL_PATH)/system/lib/libblt_hw.so:system/lib/libblt_hw.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
     $(LOCAL_PATH)/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     $(LOCAL_PATH)/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
@@ -182,7 +180,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
     $(LOCAL_PATH)/system/lib/libnmftimer.so:system/lib/libnmftimer.so \
     $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so \
