@@ -21,6 +21,13 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \
     $(LOCAL_PATH)/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
+# Prebuilts needed by stock LPM charging mode	
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/bin/factoryreset:system/bin/factoryreset \
+    $(LOCAL_PATH)/system/bin/lpmkey:system/bin/lpmkey \
+    $(LOCAL_PATH)/system/bin/playlpm:system/bin/playlpm \
+    $(LOCAL_PATH)/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so
+
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
