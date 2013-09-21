@@ -1,13 +1,4 @@
 # Goo IM Updater
-ifeq ($(UPLOAD_FOLDER),janice)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.board=GT-I9070
-endif
-ifeq ($(UPLOAD_FOLDER),janicep)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.board=GT-I9070P
-endif
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=TeamCanjica-$(BUILD_VERSION)-$(LUNCH)-$(BUILD_NUMBER) \
     ro.developerid=$(DEVELOPER) \
