@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     $(LOCAL_PATH)/system/lib/libhalaudioprocessing.so:system/lib/libhalaudioprocessing.so \
     $(LOCAL_PATH)/system/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    $(LOCAL_PATH)/system/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     $(LOCAL_PATH)/system/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
     $(LOCAL_PATH)/system/lib/libste_adm.so:system/lib/libste_adm.so \
     $(LOCAL_PATH)/system/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
