@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
+    $(LOCAL_PATH)/proprietary/system/bin/gps.cer:system/bin/gps.cer \
+    $(LOCAL_PATH)/proprietary/system/etc/gps.xml:system/etc/gps.xml \
     $(LOCAL_PATH)/proprietary/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
 # BTLD is NOT for FM, IS for bluetooth :)
