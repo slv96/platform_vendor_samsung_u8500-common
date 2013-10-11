@@ -188,10 +188,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     $(LOCAL_PATH)/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so:system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
