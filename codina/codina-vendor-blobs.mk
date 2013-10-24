@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
-    $(LOCAL_PATH)/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    $(LOCAL_PATH)/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx_codina_liteon.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_codina_liteon.dat \
@@ -91,8 +89,6 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/bin/gps.cer:system/bin/gps.cer \
-    $(LOCAL_PATH)/system/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem \
     $(LOCAL_PATH)/system/etc/gps.xml:system/etc/gps.xml \
     $(LOCAL_PATH)/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -220,17 +216,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
-
-# STE Psdata
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_conf:system/etc/psdata/sterc_conf \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_conf_alt:system/etc/psdata/sterc_conf_alt \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect:system/etc/psdata/sterc_script_connect \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect_alt:system/etc/psdata/sterc_script_connect_alt \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect_dun:system/etc/psdata/sterc_script_connect_dun \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
