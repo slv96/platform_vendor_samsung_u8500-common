@@ -133,9 +133,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/npsmobex:system/bin/npsmobex \
     $(LOCAL_PATH)/system/bin/orientationd6x:system/bin/orientationd6x \
     $(LOCAL_PATH)/system/bin/rild:system/bin/rild \
-    $(LOCAL_PATH)/system/bin/stedump:system/bin/stedump \
-    $(LOCAL_PATH)/system/bin/ta_loader:system/bin/ta_loader\
-    $(LOCAL_PATH)/system/xbin/battery_params:system/xbin/battery_params
+    $(LOCAL_PATH)/system/bin/ta_loader:system/bin/ta_loader
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
