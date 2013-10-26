@@ -184,15 +184,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
-    $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_ste_mp3decode.so:system/lib/ste_omxcomponents/libstagefright_ste_mp3decode.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_aacdec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_aacdec.so \
-    $(LOCAL_PATH)/system/lib/libstagefright_soft_ste_mp3dec.so:system/lib/ste_omxcomponents/libstagefright_soft_ste_mp3dec.so
+    $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so
 
 
 # Alsa
