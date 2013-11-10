@@ -128,8 +128,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
     $(LOCAL_PATH)/system/bin/immvibed:system/bin/immvibed \
-    $(LOCAL_PATH)/system/bin/modem_log_relay:system/bin/modem_log_relay \
-    $(LOCAL_PATH)/system/bin/modem-supervisor:system/bin/modem-supervisor \
     $(LOCAL_PATH)/system/bin/msa:system/bin/msa \
     $(LOCAL_PATH)/system/bin/npsmobex:system/bin/npsmobex \
     $(LOCAL_PATH)/system/bin/orientationd6x:system/bin/orientationd6x \
