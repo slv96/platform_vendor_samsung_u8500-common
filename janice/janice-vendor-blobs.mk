@@ -346,7 +346,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_enc_mpeg4.so:system/lib/libste_enc_mpeg4.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_exif_mixer.so:system/lib/libste_exif_mixer.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_ext_camera.so:system/lib/libste_ext_camera.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_mdrc.so:system/liblibste_mdrc.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_mdrc.so:system/lib/libste_mdrc.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_noise_reduction.so:system/lib/libste_noise_reduction.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_pcm_splitter.so:system/lib/libste_pcm_splitter.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libste_speech_proc.so:system/lib/libste_speech_proc.so \
