@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(LOCAL_PATH)/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
-    $(LOCAL_PATH)/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    $(LOCAL_PATH)/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx_codina_liteon.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_codina_liteon.dat \
@@ -96,7 +94,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem \
     $(LOCAL_PATH)/system/etc/gps.xml:system/etc/gps.xml \
-    $(LOCAL_PATH)/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so
 
 # DRM
@@ -132,15 +129,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
     $(LOCAL_PATH)/system/bin/immvibed:system/bin/immvibed \
-    $(LOCAL_PATH)/system/bin/modem_log_relay:system/bin/modem_log_relay \
-    $(LOCAL_PATH)/system/bin/modem-supervisor:system/bin/modem-supervisor \
     $(LOCAL_PATH)/system/bin/msa:system/bin/msa \
     $(LOCAL_PATH)/system/bin/npsmobex:system/bin/npsmobex \
     $(LOCAL_PATH)/system/bin/orientationd6x:system/bin/orientationd6x \
     $(LOCAL_PATH)/system/bin/rild:system/bin/rild \
-    $(LOCAL_PATH)/system/bin/stedump:system/bin/stedump \
-    $(LOCAL_PATH)/system/bin/ta_loader:system/bin/ta_loader\
-    $(LOCAL_PATH)/system/xbin/battery_params:system/xbin/battery_params
+    $(LOCAL_PATH)/system/bin/ta_loader:system/bin/ta_loader
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
@@ -221,17 +214,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
-
-# STE Psdata
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/psdata/stepscc_conf:system/etc/psdata/stepscc_conf \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_conf:system/etc/psdata/sterc_conf \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_conf_alt:system/etc/psdata/sterc_conf_alt \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect:system/etc/psdata/sterc_script_connect \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect_alt:system/etc/psdata/sterc_script_connect_alt \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_connect_dun:system/etc/psdata/sterc_script_connect_dun \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_disconnect:system/etc/psdata/sterc_script_disconnect \
-    $(LOCAL_PATH)/system/etc/psdata/sterc_script_disconnect_dun:system/etc/psdata/sterc_script_disconnect_dun
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
@@ -526,26 +508,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf \
     $(LOCAL_PATH)/system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf
-
-# Alsa config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # LVVEFS config
 PRODUCT_COPY_FILES += \
