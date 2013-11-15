@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    $(LOCAL_PATH)/system/lib/libblt_hw.so:system/lib/libblt_hw.so \
     $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
     $(LOCAL_PATH)/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     $(LOCAL_PATH)/system/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
@@ -159,7 +158,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     $(LOCAL_PATH)/system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     $(LOCAL_PATH)/system/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
-    $(LOCAL_PATH)/system/lib/libasound.so:system/lib/libasound.so \
     $(LOCAL_PATH)/system/lib/libbassapp.so:system/lib/libbassapp.so \
     $(LOCAL_PATH)/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     $(LOCAL_PATH)/system/lib/libcspsa.so:system/lib/libcspsa.so \
@@ -185,27 +183,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so
-
-
-# Alsa
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    $(LOCAL_PATH)/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
 # LVVEFS
 PRODUCT_COPY_FILES += \
@@ -272,7 +249,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/libomxil-bellagio.so:system/lib/libomxil-bellagio.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libspeech_processing.so:system/lib/ste_omxcomponents/libspeech_processing.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxarmivproc.so:system/lib/ste_omxcomponents/libst_omxarmivproc.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxface_detector.so:system/lib/ste_omxcomponents/libst_omxface_detector.so \
