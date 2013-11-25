@@ -130,10 +130,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
-# Lights
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
