@@ -112,10 +112,18 @@ PRODUCT_COPY_FILES += \
 
 # Security Daemon Modem
 PRODUCT_COPY_FILES += \
+ifeq ($(TARGET_DEVICE),codina)
     $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
     $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
     $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
     $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
+endif
+ifeq ($(TARGET_DEVICE),codinap)
+    $(LOCAL_PATH)/system/lib/teeP/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    $(LOCAL_PATH)/system/lib/teeP/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    $(LOCAL_PATH)/system/lib/teeP/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    $(LOCAL_PATH)/system/lib/teeP/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
+endif
     $(LOCAL_PATH)/system/lib/libcops.so:system/lib/libcops.so
 
 # System STE binaries
