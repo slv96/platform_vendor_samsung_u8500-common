@@ -110,6 +110,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     $(LOCAL_PATH)/system/etc/param.dat:system/etc/param.dat
 
+# NFC
+ifeq ($(TARGET_DEVICE),codinap)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/hw/nfc.samsungcodina.so:system/lib/hw/nfc.samsungcodina.so \
+endif
+
 # Security Daemon Modem
 ifeq ($(TARGET_DEVICE),codina)
 PRODUCT_COPY_FILES += \
