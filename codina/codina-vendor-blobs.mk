@@ -117,9 +117,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
     $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
     $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw
-endif
-
-ifeq ($(TARGET_DEVICE),codinap)
+else
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/teeP/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
     $(LOCAL_PATH)/system/lib/teeP/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
