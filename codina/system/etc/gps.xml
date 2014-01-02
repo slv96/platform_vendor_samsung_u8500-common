@@ -45,9 +45,9 @@
        LbsWlanEnable="false"
 
        IgnoreJniTime="true"
-       AssertEnabled="false"
+       AssertEnabled="true"
 
-       SensorsEnable="false"
+       SensorsEnable="true"
    />
 
   <gll
