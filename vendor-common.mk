@@ -21,7 +21,6 @@ endif
 ifeq ($(PRODUCT_DEVICE),codina)
 $(call inherit-product, vendor/samsung/u8500-common/codina/codina-vendor-blobs.mk)
 endif
-
-# Goo IM Auto Updater
-$(call inherit-product, vendor/samsung/u8500-common/version.mk)
-# Account is STEAndroid!
+ifeq ($(PRODUCT_DEVICE),codinap)
+$(call inherit-product, vendor/samsung/u8500-common/codina/codinap-vendor-blobs.mk)
+endif
