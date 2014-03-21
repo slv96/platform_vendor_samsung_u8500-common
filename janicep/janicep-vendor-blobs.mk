@@ -20,6 +20,8 @@ PRODUCT_PACKAGES += \
     libMali \
     libUMP
 
+PRODUCT_PACKAGES += FileManager
+
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \

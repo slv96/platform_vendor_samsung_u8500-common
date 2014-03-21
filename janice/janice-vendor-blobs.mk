@@ -17,7 +17,8 @@ LOCAL_PATH := $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     libGLESv1_CM_mali \
     libMali \
-    libUMP
+    libUMP \
+    FileManager
 	
 # Prebuilts needed by stock LPM charging mode	
 PRODUCT_COPY_FILES += \
