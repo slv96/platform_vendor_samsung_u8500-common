@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \
     $(LOCAL_PATH)/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
+# Google Play Music
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/app/Music2.apk:system/app/Music2.apk
+
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
