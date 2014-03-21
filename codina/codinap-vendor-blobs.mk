@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_ens_audio_common.so:system/lib/libste_ens_audio_common.so \
     $(LOCAL_PATH)/system/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     $(LOCAL_PATH)/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
-    $(LOCAL_PATH)/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so \
+    $(LOCAL_PATH)/system/lib/libste_audio_mixer.so:system/lib/libste_audio_mixer.so
 
 
 # RIL
@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
 # Lights/sensors modules
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/sensors.montblanc.so:system/lib/hw/sensors.montblanc.so \
+    $(LOCAL_PATH)/system/lib/hw/nfc.samsungcodina.so:system/lib/hw/nfc.samsungcodina.so \
     $(LOCAL_PATH)/system/etc/sensors.dat:system/etc/sensors.dat \
     $(LOCAL_PATH)/system/etc/calib.dat:system/etc/calib.dat \
     $(LOCAL_PATH)/system/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
@@ -112,10 +113,10 @@ PRODUCT_COPY_FILES += \
 
 # Security Daemon Modem
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
-    $(LOCAL_PATH)/system/lib/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/system/lib/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
+    $(LOCAL_PATH)/system/lib/teeP/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
+    $(LOCAL_PATH)/system/lib/teeP/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
+    $(LOCAL_PATH)/system/lib/teeP/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
+    $(LOCAL_PATH)/system/lib/teeP/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw \
     $(LOCAL_PATH)/system/lib/libcops.so:system/lib/libcops.so
 
 # System STE binaries
@@ -123,6 +124,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/admsrv:system/bin/admsrv \
     $(LOCAL_PATH)/system/bin/at_core:system/bin/at_core \
     $(LOCAL_PATH)/system/bin/at_distributor:system/bin/at_distributor \
+    $(LOCAL_PATH)/system/bin/btld:system/bin/btld \
     $(LOCAL_PATH)/system/bin/copsdaemon:system/bin/copsdaemon \
     $(LOCAL_PATH)/system/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
@@ -211,7 +213,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxnorcos.so:system/lib/ste_omxcomponents/libst_omxnorcos.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_corrector.so:system/lib/ste_omxcomponents/libst_omxredeye_corrector.so \
     $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxredeye_detector.so:system/lib/ste_omxcomponents/libst_omxredeye_detector.so \
-    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so \
+    $(LOCAL_PATH)/system/lib/ste_omxcomponents/libst_omxsplitter.so:system/lib/ste_omxcomponents/libst_omxsplitter.so
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
