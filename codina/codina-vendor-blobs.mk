@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES := \
 
 # File Manager
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/app/FileManager.apk:system/app/FileManager.apk
+    $(LOCAL_PATH)/../janice/system/app/FileManager.apk:system/app/FileManager.apk
 
 # Google Play Music
 PRODUCT_COPY_FILES += \
