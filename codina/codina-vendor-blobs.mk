@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \
     $(LOCAL_PATH)/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
+# File Manager
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/../janice/system/app/FileManager.apk:system/app/FileManager.apk
+
 # Google Play Music
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/app/Music2.apk:system/app/Music2.apk
