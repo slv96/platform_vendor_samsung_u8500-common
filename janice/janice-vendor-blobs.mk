@@ -17,8 +17,7 @@ LOCAL_PATH := $(LOCAL_PATH)
 PRODUCT_PACKAGES += \
     libGLESv1_CM_mali \
     libMali \
-    libUMP \
-    FileManager
+    libUMP
 	
 # Prebuilts needed by stock LPM charging mode	
 PRODUCT_COPY_FILES += \
@@ -371,7 +370,7 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so \
-    $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+    #$(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
