@@ -45,8 +45,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libUMP.so:system/lib/libUMP.so \
     $(LOCAL_PATH)/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     $(LOCAL_PATH)/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    $(LOCAL_PATH)/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so
+    $(LOCAL_PATH)/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
+
+
+#$(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so
 
 # EXTRAS
 PRODUCT_COPY_FILES += \
@@ -96,9 +98,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx_ricco.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_ricco.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k6aafx13.dat:system/usr/share/camera/config_file/samsung_s5k6aafx13.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k6aafx13_rev00.dat:system/usr/share/camera/config_file/samsung_s5k6aafx13_rev00.dat \
-    $(LOCAL_PATH)//system/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat \
+    $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_codina_tmo.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_codina_tmo.dat \
-    $(LOCAL_PATH)//system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat \
+    $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_kyle.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_kyle.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_skomer.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_skomer.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
@@ -128,8 +130,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so
 
 # Copybit
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -145,8 +147,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/sensors.dat:system/etc/sensors.dat
 
 # HWComposer
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -177,7 +179,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
     $(LOCAL_PATH)/system/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     $(LOCAL_PATH)/system/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
-    $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so
 
@@ -370,8 +371,7 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so \
-    $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+    $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so
 
 # NMF Confs
 PRODUCT_COPY_FILES += \
