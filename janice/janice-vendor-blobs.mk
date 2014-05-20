@@ -47,9 +47,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     $(LOCAL_PATH)/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
 
-
-#$(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so
-
 # EXTRAS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/hdmid:system/bin/hdmid \
@@ -78,6 +75,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/p2p_supplicant:system/bin/p2p_supplicant \
     $(LOCAL_PATH)/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
@@ -129,10 +127,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so
 
-# Copybit
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/geomagneticd6x:system/bin/geomagneticd6x \
@@ -145,10 +139,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/calib.dat:system/etc/calib.dat \
     $(LOCAL_PATH)/system/etc/param.dat:system/etc/param.dat \
     $(LOCAL_PATH)/system/etc/sensors.dat:system/etc/sensors.dat
-
-# HWComposer
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so
 
 # Audio
 PRODUCT_COPY_FILES += \
